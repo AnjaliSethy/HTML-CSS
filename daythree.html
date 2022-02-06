@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Complex Table</title>
+    <style>
+        table{
+            border: 5px solid black; 
+            width: 500px;
+            text-align: center;
+            background-color: violet;
+        }
+        caption{
+            padding: 25px;
+            margin-left: 20px;
+            font-size: 2vw;
+            color: crimson;
+            font-weight: bolder;
+
+        }
+        th{
+            background-color: black;
+            color: white;
+        }
+    </style>
+    
+</head>
+<body>
+    <table border="1" align="center">
+            <caption>Restaurant Menu</caption>
+        <tr>
+            <th rowspan="2">Type</th>
+            <th rowspan="2">Dish Name</th>
+            <th colspan="2">Option</th>
+        </tr>
+        <tr>
+            <th>Half</th>
+            <th>Full</th>
+            
+        </tr>
+        <tr>
+            <td rowspan="4">Starter</td>
+            <td>Paneer Tikka</td>
+            <td>160/-</td>
+            <td>270/-</td>
+        </tr>
+        <tr>
+            <td>Paneer Malai Tikka</td>
+            <td>180/-</td>
+            <td>285/-</td>
+        </tr>
+        <tr>
+            <td>Mushroom Tikka</td>
+            <td>140/-</td>
+            <td>240/-</td>
+        </tr>
+        <tr>
+            <td>Chicken Momos</td>
+            <td>80/-</td>
+            <td>150/-</td>
+        </tr>
+        <tr>
+            <td rowspan="4">Main Course</td>
+            <td>Shahi Paneer</td>
+            <td>200/-</td>
+            <td>350/-</td>
+        </tr>
+        <tr>
+            <td>Butter Chicken</td>
+            <td>280/-</td>
+            <td>500/-</td>
+        </tr>
+        <tr>
+            <td>Chicken Tikka Masala</td>
+            <td>250/-</td>
+            <td>450/-</td>
+        </tr>
+        <tr>
+            <td>Chicken Biryani</td>
+            <td>160/-</td>
+            <td>300/-</td>
+        </tr>
+        </table>
+</body>
+</html>
